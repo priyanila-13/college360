@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education Geotagging Platform</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    
+    <header class="hero">
+        <h1>Discover Educational Institutions Across India</h1>
+        <p>Explore virtual tours, courses, and entrance details nationwide</p>
+        <select class="search-bar" onchange="navigateToCollege(this.value)">
+            <option disabled selected>Select an Institution</option>
+            <option value="nitt.html">NIT Trichy</option>
+            <option value="sce.html">Saranathan College of Engineering</option>
+            <option value="jj-clg.html">JJ College of Engineering and Technology</option>
+            <option value="krce.html">KRCE - K Ramakrishna College of Engineering</option>
+            <option value="bhc.html">Bishop Heber College</option>
+        </select>    
+    </header>
+
+
+    <!--section class="popular-searches">
+        <h2>Popular Searches</h2>
+        <div class="categories">
+            <button>Top Colleges</button>
+            <button>Schools by State</button>
+            <button>Entrance Exam Prep</button>
+            <button>Explore Courses</button>
+        </div>
+    </section-->
+
+
+    <section class="how-it-works">
+        <h2>How It Works</h2>
+        <div class="steps">
+            <div class="step">
+                <i class="fas fa-search-location"></i>
+                <h3>1. Find Institutions</h3>
+                <p>Search institutions by name, course, or location</p>
+            </div>
+            <div class="step">
+                <i class="fas fa-vr-cardboard"></i>
+                <h3>2. Take a Virtual Tour</h3>
+                <p>Explore campuses through interactive 360° tours</p>
+            </div>
+            <div class="step">
+                <i class="fas fa-book-open"></i>
+                <h3>3. Explore Courses</h3>
+                <p>Get detailed information on available programs</p>
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <p>&copy; 2024 College360</p><br>
+        <nav>
+            <a href="#">About Us</a>
+            <a href="#">Contact</a>
+            <a href="#">Privacy Policy</a>
+        </nav>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
